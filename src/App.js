@@ -1,9 +1,10 @@
 import React from 'react';
+import BookAppointment from './components/BookAppointment';
 
 function App() {
   return (
     <div className="App">
-      Appointment App
+      <BookAppointment />
     </div>
   );
 }
